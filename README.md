@@ -17,15 +17,15 @@ Using a bootable ISO to do this automatically is dangerous, but avoids the need 
 
 1) Download the 4.12 RHCOS ISO from Red Hat:
 
-```
-mkdir ./wiper-iso-build; cd ./wiper-iso-build
+```bash
+cd ./danger-wiper       # Or whether the repo is cloned
 wget https://mirror.openshift.com/pub/openshift-v4/dependencies/rhcos/4.12/latest/rhcos-live.x86_64.iso
 ```
 
 
 2) Use the container image version of coreos-installer to embed the ignition into the ISO (ensure danger_wiper.ign is in the current directory):
 
-```
+```bash
 podman run --rm --tty --interactive --volume ${PWD}:/data:z --workdir /data quay.io/coreos/coreos-installer:release iso customize \
   ./rhcos-live.x86_64.iso --live-ignition ./danger_wiper.ign --output danger_wiper.iso
 ```
