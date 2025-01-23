@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/donnotrun
 # Disk wiper script - DANGER: will remove partition table etc from all disks in a system
 # NOTE: Does not perform secure data erasure.
 
