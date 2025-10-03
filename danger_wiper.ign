@@ -8,14 +8,12 @@
         }]
     },
     "storage": {
-        "files": [
-        {
+        "files": [{
             "path": "/usr/local/bin/danger_wiper.sh",
             "mode": 493,
             "contents": {
-            "source": "data:text/plain;charset=utf-8;base64,IyEvYmluL2Jhc2gKIyBEaXNrIHdpcGVyIHNjcmlwdCAtIERBTkdFUjogd2lsbCByZW1vdmUgcGFydGl0aW9uIHRhYmxlIGV0YyBmcm9tIGFsbCBkaXNrcyBpbiBhIHN5c3RlbQojIE5PVEU6IERvZXMgbm90IHBlcmZvcm0gc2VjdXJlIGRhdGEgZXJhc3VyZS4KCmZvciBESVNLIGluICQobHMgL2Rldi9zZFthLXpdIDI+L2Rldi9udWxsOyBscyAvZGV2L3ZkW2Etel0gMj4vZGV2L251bGw7IGxzIC9kZXYvbnZtZVswLTldblsxLTldIDI+L2Rldi9udWxsKTsKZG8KCWVjaG8gJERJU0sKCXdpcGVmcyAtYWYgJERJU0sKICAgICAgICBzbGVlcCAxCmRvbmUKCnNsZWVwIDIKCnN5bmMKCnNsZWVwIDIKc2h1dGRvd24gLWggbm93Cgo="
-        }
-    }
-    ]
+                "source": "data:text/plain;charset=utf-8;base64,IyEvYmluL2Jhc2gKIyBEaXNrIHdpcGVyIHNjcmlwdCAtIERBTkdFUjogd2lsbCByZW1vdmUgcGFydGl0aW9uIHRhYmxlIGV0YyBmcm9tIGFsbCBkaXNrcyBpbiBhIHN5c3RlbQojIE5PVEU6IERvZXMgbm90IHBlcmZvcm0gc2VjdXJlIGRhdGEgZXJhc3VyZS4KCmZvciBESVNLIGluICQobHMgL2Rldi9zZFthLXpdIDI+L2Rldi9udWxsOyBscyAvZGV2L3ZkW2Etel0gMj4vZGV2L251bGw7IGxzIC9kZXYvbnZtZVswLTldblsxLTldIDI+L2Rldi9udWxsKTsKZG8KCWVjaG8gIldpcGluZyBkaXNrICRESVNLIgoJd2lwZWZzIC1hZiAkRElTSwoJc2xlZXAgMQoJIyBEZWxldGUgYW55IENlcGggYmx1ZXN0b3JlIHNlZ21lbnRzCiAgZm9yIGdiIGluIDAgMSAxMCAxMDAgMTAwMDsgZG8gZGQgaWY9L2Rldi96ZXJvIG9mPSIkRElTSyIgYnM9MUsgY291bnQ9MjAwIG9mbGFnPWRpcmVjdCxkc3luYyBzZWVrPSQoKGdiICogMTAyNCoqMikpOyBkb25lCglzbGVlcCAxCmRvbmUKCnNsZWVwIDIKCnN5bmMKCnNsZWVwIDIKc2h1dGRvd24gLWggbm93Cgo="
+            }
+        }]
     }
 }
